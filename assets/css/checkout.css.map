@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "checkout.css",
+	"sources": [
+		"../../scss/checkout.scss"
+	],
+	"sourcesContent": [
+		"//\n// Custom styles\n//\n\nbody {\n    padding: 3rem 1.5rem;\n    background-color:darkseagreen;\n    font-size: 1.2rem;\n  }\n  \n"
+	],
+	"names": [],
+	"mappings": "AAIA,AAAA,IAAI,AAAC,CACD,OAAO,CAAE,WAAW,CACpB,gBAAgB,CAAC,YAAY,CAC7B,SAAS,CAAE,MAAM,CAClB"
+}
