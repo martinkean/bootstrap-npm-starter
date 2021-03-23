@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "product-grid.css",
+	"sources": [
+		"../../scss/product-grid.scss"
+	],
+	"sourcesContent": [
+		""
+	],
+	"names": [],
+	"mappings": ""
+}
