@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "navbar.css",
+	"sources": [
+		"../../scss/navbar.scss"
+	],
+	"sourcesContent": [
+		"body {\n    padding-bottom: 20px;\n  }\n  \n  .navbar {\n    margin-bottom: 20px;\n  }"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,IAAI,AAAC,CACD,cAAc,CAAE,IAAI,CACrB,AAED,AAAA,OAAO,AAAC,CACN,aAAa,CAAE,IAAI,CACpB"
+}
