@@ -5,8 +5,8 @@
 		"../../scss/index.scss"
 	],
 	"sourcesContent": [
-		"//\n// Custom styles\n//\n\nbody {\n    padding: 3rem 1.5rem;\n    background-color:cornsilk;\n    font-size: 1rem;\n  }\n  \n  // Style Bootstrap icons\n  .bi {\n    fill: currentColor;\n  }\n  "
+		"//\n// Custom styles\n//\n\nbody {\n  font-size: 1rem;\n}\n\n// Style Bootstrap icons\n.bi {\n  fill: currentColor;\n}\n"
 	],
 	"names": [],
-	"mappings": "AAIA,AAAA,IAAI,AAAC,CACD,OAAO,CAAE,WAAW,CACpB,gBAAgB,CAAC,QAAQ,CACzB,SAAS,CAAE,IAAI,CAChB,AAGD,AAAA,GAAG,AAAC,CACF,IAAI,CAAE,YAAY,CACnB"
+	"mappings": "AAIA,AAAA,IAAI,AAAC,CACH,SAAS,CAAE,IAAI,CAChB,AAGD,AAAA,GAAG,AAAC,CACF,IAAI,CAAE,YAAY,CACnB"
 }
