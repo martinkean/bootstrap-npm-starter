@@ -5,8 +5,15 @@
 		"../../scss/product-grid.scss"
 	],
 	"sourcesContent": [
+<<<<<<< Updated upstream
 		".product-grid {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 2.5rem;\n\n  @media screen and (min-width: 576px) and (max-width: 992px) {\n    grid-template-columns: repeat(2, 1fr);\n  }\n\n  @media screen and (max-width: 576px) {\n    grid-template-columns: repeat(1, 1fr);\n  }\n}\n"
 	],
 	"names": [],
 	"mappings": "AAAA,AAAA,aAAa,AAAC,CACZ,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,cAAc,CACrC,GAAG,CAAE,MAAM,CASZ,AAPC,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK,EAL5D,AAAA,aAAa,AAAC,CAMV,qBAAqB,CAAE,cAAc,CAMxC,CAHC,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,EATrC,AAAA,aAAa,AAAC,CAUV,qBAAqB,CAAE,cAAc,CAExC"
+=======
+		".product-grid {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 2.5rem;\n\n    // @media (max-width: 992px) {\n    //     grid-template-columns: repeat(2, 1fr);\n    //   }\n\n    @media screen and (min-width: 768px) {\n        grid-template-columns: repeat(2, 1fr);\n      }\n\n    @media  screen and (max-width: 576px) {\n        grid-template-columns: repeat(1, 1fr);\n      }\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,aAAa,AAAC,CACV,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,cAAc,CACrC,GAAG,CAAE,MAAM,CAad,AAPG,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,EATvC,AAAA,aAAa,AAAC,CAUN,qBAAqB,CAAE,cAAc,CAM5C,CAHG,MAAM,CAAE,MAAM,MAAM,SAAS,EAAE,KAAK,EAbxC,AAAA,aAAa,AAAC,CAcN,qBAAqB,CAAE,cAAc,CAE5C"
+>>>>>>> Stashed changes
 }
