@@ -10,7 +10,60 @@
 </head>
 <body>
 
+    <h1>Products from Shopify</h1>
+
 <script>
+
+    const query = `{
+    shop {
+        name
+    }
+    }`;
+    
+    function apiCall(query) {
+    return fetch('martin-gatsby-shop-netlify-one.myshopify.com/api/graphql.json', {
+        method: 'POST',
+        headers: {
+        'Content-Type': 'application/graphql',
+        "Access-Control-Origin": "*",
+        'X-Shopify-Storefront-Access-Token': "50d6e7ade3932c7c37b69c28c55f6815"
+        },
+        "body": query
+    }).then(response =>; response.json());
+    }
+    
+    apiCall(query).then(response => {
+    console.log(response)
+    });
+
+    $(document).ready(function() {
+        const $app = $('#app');
+        
+        getProducts().then(response => {
+        
+            $app.append("<div class='products'></div>");
+            
+            const $products = $('.products');
+        
+            response.data.products.edges.forEach(product => {
+            
+            const template = `<div class="product">
+                    <h2>${product.node.title}</h2>
+                    <img alt="${product.node.images.edges[0].node.altText}" src="${product.node.images.edges[0].node.transformedSrc}">
+                    <p>${product.node.description}</p>
+                    </div>`;
+            
+            
+            $products.append(template);
+            });
+        });
+        
+        });
+
+</script>
+
+<script>
+
     import Client from 'shopify-buy';
 
     // Initializing a client to return content in the store's primary language
