@@ -14,33 +14,9 @@
 
     <script src="https://sdks.shopifycdn.com/buy-button/0.1.34/buybutton.js"></script>
 
-    <script>
-      var client = ShopifyBuy.buildClient({
-        apiKey: "50d6e7ade3932c7c37b69c28c55f6815",
-        domain: "martin-gatsby-shop-netlify-one.myshopify.com"
-      });
-      
-      var ui = ShopifyBuy.UI.init(client);
-      
-      ui.createComponent("collection", {
-        id: 262878494885,
-        options: {
-          product: {
-            isButton: true,
-            buttonDestination: "modal",
-            contents: {
-              button: false,
-              options: false
-            }
-          }
-        }
-      });
-    </script>
-    <noscript>Sorry, your browser does not support JavaScript!</noscript>
+    <script  src="./assets/js/collection.js"></script>
 
-
-
-<script src="http://sdks.shopifycdn.com/js-buy-sdk/v2/latest/index.umd.min.js"></script>
+<!-- <script src="http://sdks.shopifycdn.com/js-buy-sdk/v2/latest/index.umd.min.js"></script> -->
 
 </body>
 </html>
