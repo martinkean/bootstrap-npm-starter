@@ -101,11 +101,14 @@ $secondary-highlight: #f2cf66; //Secondary highlight colour
   color: #63707c;
 }
 
-h1 {
+h1, h2, h3, h4 {
   color: $heading-text-colour;
 }
 
+p {
+  color: $body-text-colour;
+}
+
 .btn-primary {
-  background: $highlight-colour linear-gradient(
-    180deg, $highlight-colour, $highlight-colour) repeat-x;
+  background: $highlight-colour;
 }
