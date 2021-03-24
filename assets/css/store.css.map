@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "store.css",
+	"sources": [
+		"../../scss/store.scss"
+	],
+	"sourcesContent": [
+		".shopify-buy__collection-products {\n  background-color: red;\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,iCAAiC,AAAC,CAChC,gBAAgB,CAAE,GAAG,CACtB"
+}
