@@ -18,3 +18,11 @@ body {
   padding: 4em;
   font-size: 1.4em;
 }
+
+.data-netlify-identity-menu ul {
+  list-style-type: none;
+}
+
+.data-netlify-identity-menu ul li::before {
+  content: "";
+}
