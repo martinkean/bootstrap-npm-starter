@@ -5,8 +5,8 @@
 		"../../scss/index.scss"
 	],
 	"sourcesContent": [
-		"//\n// Custom styles\n//\n\nbody {\n  font-size: 1rem;\n}\n\n// Style Bootstrap icons\n.bi {\n  fill: currentColor;\n}\n"
+		"//\n// Custom styles\n//\n\nbody {\n  font-size: 1rem;\n}\n\n// Style Bootstrap icons\n.bi {\n  fill: currentColor;\n}\n\n.reg-container {\n  width: 50vw;\n  border-radius: 15px;\n  background-color: #e1e4e8;\n}\n"
 	],
 	"names": [],
-	"mappings": "AAIA,AAAA,IAAI,AAAC,CACH,SAAS,CAAE,IAAI,CAChB,AAGD,AAAA,GAAG,AAAC,CACF,IAAI,CAAE,YAAY,CACnB"
+	"mappings": "AAIA,AAAA,IAAI,AAAC,CACH,SAAS,CAAE,IAAI,CAChB,AAGD,AAAA,GAAG,AAAC,CACF,IAAI,CAAE,YAAY,CACnB,AAED,AAAA,cAAc,AAAC,CACb,KAAK,CAAE,IAAI,CACX,aAAa,CAAE,IAAI,CACnB,gBAAgB,CAAE,OAAO,CAC1B"
 }
