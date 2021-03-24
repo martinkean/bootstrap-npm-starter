@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Martin Kean">
+    <title>Products from Shopify</title>
+</head>
+<body>
+
+<script>
+    import Client from 'shopify-buy';
+
+    // Initializing a client to return content in the store's primary language
+    const client = Client.buildClient({
+    domain: 'martin-gatsby-shop-netlify-one.myshopify.com',
+    storefrontAccessToken: '50d6e7ade3932c7c37b69c28c55f6815'
+    });
+
+    // Initializing a client to return translated content
+    const clientWithTranslatedContent = Client.buildClient({
+    domain: 'martin-gatsby-shop-netlify-one.myshopify.com',
+    storefrontAccessToken: '50d6e7ade3932c7c37b69c28c55f6815',
+    language: 'en-NZ'
+    });
+
+    // Fetch all products in your shop
+    client.product.fetchAll().then((products) => {
+    // Do something with the products
+    console.log(products);
+    });
+
+    // Fetch a single product by ID
+    const productId = 'Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0Lzc4NTc5ODkzODQ=';
+
+    client.product.fetch(productId).then((product) => {
+    // Do something with the product
+    console.log(product);
+    });
+
+    // Fetch a single product by Handle
+    const handle = 'product-handle';
+
+    client.product.fetchByHandle(handle).then((product) => {
+    // Do something with the product
+    console.log(product);
+    });
+
+</script>
+
+</body>
+</html>
