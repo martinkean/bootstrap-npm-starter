@@ -5,8 +5,8 @@
 		"../../scss/index.scss"
 	],
 	"sourcesContent": [
-		"//\n// Custom styles\n//\n\nbody {\n  font-size: 1rem;\n}\n\n// Style Bootstrap icons\n.bi {\n  fill: currentColor;\n}\n\n.reg-container {\n  width: 50vw;\n  // border-radius: 15px;\n  background-color: #f0f0f0;\n  padding: 4em;\n  font-size: 1.4em;\n}\n\n.data-netlify-identity-menu {\n  list-style-type: none;\n}\n\n.data-netlify-identity-menu ul li::before {\n  content: \"\";\n}\n"
+		"//\n// Custom styles\n//\n\nbody {\n  font-size: 1rem;\n}\n\n// Style Bootstrap icons\n.bi {\n  fill: currentColor;\n}\n\n.reg-container {\n  width: 50vw;\n  // border-radius: 15px;\n  background-color: #f0f0f0;\n  padding: 4em;\n  font-size: 1.4em;\n}\n\n.netlify-identity-menu {\n  list-style-type: none;\n}\n\n.netlify-identity-menu li::before {\n  content: \"\";\n}\n"
 	],
 	"names": [],
-	"mappings": "AAIA,AAAA,IAAI,AAAC,CACH,SAAS,CAAE,IAAI,CAChB,AAGD,AAAA,GAAG,AAAC,CACF,IAAI,CAAE,YAAY,CACnB,AAED,AAAA,cAAc,AAAC,CACb,KAAK,CAAE,IAAI,CAEX,gBAAgB,CAAE,OAAO,CACzB,OAAO,CAAE,GAAG,CACZ,SAAS,CAAE,KAAK,CACjB,AAED,AAAA,2BAA2B,AAAC,CAC1B,eAAe,CAAE,IAAI,CACtB,AAED,AAAA,2BAA2B,CAAC,EAAE,CAAC,EAAE,AAAA,QAAQ,AAAC,CACxC,OAAO,CAAE,EAAE,CACZ"
+	"mappings": "AAIA,AAAA,IAAI,AAAC,CACH,SAAS,CAAE,IAAI,CAChB,AAGD,AAAA,GAAG,AAAC,CACF,IAAI,CAAE,YAAY,CACnB,AAED,AAAA,cAAc,AAAC,CACb,KAAK,CAAE,IAAI,CAEX,gBAAgB,CAAE,OAAO,CACzB,OAAO,CAAE,GAAG,CACZ,SAAS,CAAE,KAAK,CACjB,AAED,AAAA,sBAAsB,AAAC,CACrB,eAAe,CAAE,IAAI,CACtB,AAED,AAAA,sBAAsB,CAAC,EAAE,AAAA,QAAQ,AAAC,CAChC,OAAO,CAAE,EAAE,CACZ"
 }

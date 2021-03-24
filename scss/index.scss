@@ -19,10 +19,10 @@ body {
   font-size: 1.4em;
 }
 
-.data-netlify-identity-menu {
+.netlify-identity-menu {
   list-style-type: none;
 }
 
-.data-netlify-identity-menu ul li::before {
+.netlify-identity-menu li::before {
   content: "";
 }
