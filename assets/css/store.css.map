@@ -5,8 +5,8 @@
 		"../../scss/store.scss"
 	],
 	"sourcesContent": [
-		".shopify-buy__collection-products {\n  background-color: red;\n}\n"
+		"// Customised colour palette\n$heading-text-colour: #8c0303; // Burnt red\n$highlight-colour: #f5840c; // Bright orange\n$body-bg: #f5f5f5; // Light grey\n$body-text-colour: #0d0d0d; // Dark colour for text\n$secondary-highlight: #f2cf66; //Secondary highlight colour\n\n.shopify-buy__collection-products {\n  background-color: red;\n}\n"
 	],
 	"names": [],
-	"mappings": "AAAA,AAAA,iCAAiC,AAAC,CAChC,gBAAgB,CAAE,GAAG,CACtB"
+	"mappings": "AAOA,AAAA,iCAAiC,AAAC,CAChC,gBAAgB,CAAE,GAAG,CACtB"
 }
