@@ -23,8 +23,11 @@
   <body>
 
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+      <nav class="navbar navbar-expand-md navbar-bright" aria-label="Fourth navbar example">
           <div class="container-fluid">
+            <div class="svg-logo">
+              <img src="assets/img/logo.svg" />
+            </div>
             <a class="navbar-brand" href="#">Martin's site</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -73,58 +76,33 @@
       </div>
     </div>   
 
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Success!</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              If you're seeing this modal after clicking the button on the page, Bootstrap's CSS and JS are both working properly.
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <hr class="my-5">
 
-      <h2>Adding Bootstrap Icons</h2>
-      <p><a href="https://icons.getbootstrap.com">Bootstrap Icons</a> are included with the SVG sprite here, but there are other <a href="https://icons.getbootstrap.com/#usage">usage options</a>, too. They're styleable with text utilities and more.</p>
+      <div class="container-sm w-50 shadow-sm p-3 mb-5 bg-body rounded">
+        <h2>Adding Bootstrap Icons</h2>
+        <p><a href="https://icons.getbootstrap.com">Bootstrap Icons</a> are included with the SVG sprite here, but there are other <a href="https://icons.getbootstrap.com/#usage">usage options</a>, too. They're styleable with text utilities and more.</p>
 
-      <svg class="bi text-danger" width="32" height="32">
-        <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#heart-fill"/>
-      </svg>
-      <svg class="bi text-dark" width="32" height="32">
-        <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#toggles"/>
-      </svg>
-      <svg class="bi text-primary" width="32" height="32">
-        <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#shop"/>
-      </svg>
-    </div>
+        <svg class="bi text-danger" width="32" height="32">
+          <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#heart-fill"/>
+        </svg>
+        <svg class="bi text-dark" width="32" height="32">
+          <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#toggles"/>
+        </svg>
+        <svg class="bi text-primary" width="32" height="32">
+          <use xlink:href="node_modules/bootstrap-icons/bootstrap-icons.svg#shop"/>
+        </svg>
+      </div>
 
     <div class="container reg-container shadow-sm p-3 mb-5 bg-body rounded">
         <!-- Add a menu:
         Log in / Sign up - when the user is not logged in
         Username / Log out - when the user is logged in
         -->
-        <i class="bi bi-person-plus-fill"></i>
         <svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" fill="currentColor" class="bi bi-award" viewBox="0 0 16 16">
           <path d="M9.669.864L8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193l.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z"/>
           <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
         </svg>
         <div data-netlify-identity-menu></div>
-
-        <!-- Add a simpler button:
-          Simple button that will open the modal.
-        -->
-        <!-- <div data-netlify-identity-button>Login with Netlify Identity</div> -->
     </div>
 
     <footer class="bd-footer p-3 p-md-5 mt-5 bg-light text-center text-sm-start">
