@@ -5,8 +5,8 @@
 		"../../scss/navbar.scss"
 	],
 	"sourcesContent": [
-		"  .navbar {\n    margin-bottom: 20px;\n  }"
+		"  .navbar {\n    margin-bottom: 20px;\n  }\n\n  .navbar-brand {\n    color:deeppink;\n    font-size: 2rem;\n  }"
 	],
 	"names": [],
-	"mappings": "AAAE,AAAA,OAAO,AAAC,CACN,aAAa,CAAE,IAAI,CACpB"
+	"mappings": "AAAE,AAAA,OAAO,AAAC,CACN,aAAa,CAAE,IAAI,CACpB,AAED,AAAA,aAAa,AAAC,CACZ,KAAK,CAAC,QAAQ,CACd,SAAS,CAAE,IAAI,CAChB"
 }
