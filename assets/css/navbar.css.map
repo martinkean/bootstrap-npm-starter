@@ -5,8 +5,8 @@
 		"../../scss/navbar.scss"
 	],
 	"sourcesContent": [
-		"  .navbar {\n    margin-bottom: 20px;\n    color: #333;\n  }\n\n  .navbar-brand {\n    color:deeppink;\n    font-size: 2rem;\n  }\n\n  .navbar-bright {\n    background-color:lightpink;\n  }\n\n  .svg-logo {\n    width: 3em;\n  }"
+		"  .navbar {\n    margin-bottom: 20px;\n    color: #333;\n  }\n\n  .navbar-brand {\n    color:deeppink;\n    font-size: 2rem;\n  }\n\n  .navbar-bright {\n    background-color:lightpink;\n  }\n\n  .svg-logo {\n    width: 3em;\n    margin-right: 1em;\n  }"
 	],
 	"names": [],
-	"mappings": "AAAE,AAAA,OAAO,AAAC,CACN,aAAa,CAAE,IAAI,CACnB,KAAK,CAAE,IAAI,CACZ,AAED,AAAA,aAAa,AAAC,CACZ,KAAK,CAAC,QAAQ,CACd,SAAS,CAAE,IAAI,CAChB,AAED,AAAA,cAAc,AAAC,CACb,gBAAgB,CAAC,SAAS,CAC3B,AAED,AAAA,SAAS,AAAC,CACR,KAAK,CAAE,GAAG,CACX"
+	"mappings": "AAAE,AAAA,OAAO,AAAC,CACN,aAAa,CAAE,IAAI,CACnB,KAAK,CAAE,IAAI,CACZ,AAED,AAAA,aAAa,AAAC,CACZ,KAAK,CAAC,QAAQ,CACd,SAAS,CAAE,IAAI,CAChB,AAED,AAAA,cAAc,AAAC,CACb,gBAAgB,CAAC,SAAS,CAC3B,AAED,AAAA,SAAS,AAAC,CACR,KAAK,CAAE,GAAG,CACV,YAAY,CAAE,GAAG,CAClB"
 }

@@ -39,3 +39,8 @@ body {
 .netlify-identity-menu li::before {
   content: "";
 }
+
+.btn-green {
+  background-color: $secondary-highlight;
+  border-color: $secondary-highlight;
+}
