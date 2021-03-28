@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "product.css",
+	"sources": [
+		"../../scss/product.scss"
+	],
+	"sourcesContent": [
+		".product {\n}\n\n.product-container {\n}\n"
+	],
+	"names": [],
+	"mappings": ""
+}

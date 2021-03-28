@@ -5,8 +5,8 @@
 		"../../scss/product-grid.scss"
 	],
 	"sourcesContent": [
-		"// Customised colour palette\n$heading-text-colour: #8c0303; // Burnt red\n$highlight-colour: #f5840c; // Bright orange\n$body-bg: #f5f5f5; // Light grey\n$body-text-colour: #0d0d0d; // Dark colour for text\n$secondary-highlight: #f2cf66; //Secondary highlight colour\n\n.product-grid {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 2.5rem;\n\n  @media screen and (min-width: 576px) and (max-width: 992px) {\n    grid-template-columns: repeat(2, 1fr);\n  }\n\n  @media screen and (max-width: 576px) {\n    grid-template-columns: repeat(1, 1fr);\n  }\n}\n"
+		"// Customised colour palette\n$heading-text-colour: #8c0303; // Burnt red\n$highlight-colour: #f5840c; // Bright orange\n$body-bg: #f5f5f5; // Light grey\n$body-text-colour: #0d0d0d; // Dark colour for text\n$secondary-highlight: #f2cf66; //Secondary highlight colour\n\n.product-grid {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 2.5rem;\n\n  @media screen and (min-width: 576px) and (max-width: 992px) {\n    grid-template-columns: repeat(2, 1fr);\n  }\n\n  @media screen and (max-width: 576px) {\n    grid-template-columns: repeat(1, 1fr);\n  }\n}\n\n.product-grid a {\n  text-decoration: none;\n}\n"
 	],
 	"names": [],
-	"mappings": "AAOA,AAAA,aAAa,AAAC,CACZ,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,cAAc,CACrC,GAAG,CAAE,MAAM,CASZ,AAPC,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK,EAL5D,AAAA,aAAa,AAAC,CAMV,qBAAqB,CAAE,cAAc,CAMxC,CAHC,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,EATrC,AAAA,aAAa,AAAC,CAUV,qBAAqB,CAAE,cAAc,CAExC"
+	"mappings": "AAOA,AAAA,aAAa,AAAC,CACZ,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,cAAc,CACrC,GAAG,CAAE,MAAM,CASZ,AAPC,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK,EAL5D,AAAA,aAAa,AAAC,CAMV,qBAAqB,CAAE,cAAc,CAMxC,CAHC,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,EATrC,AAAA,aAAa,AAAC,CAUV,qBAAqB,CAAE,cAAc,CAExC,CAED,AAAA,aAAa,CAAC,CAAC,AAAC,CACd,eAAe,CAAE,IAAI,CACtB"
 }

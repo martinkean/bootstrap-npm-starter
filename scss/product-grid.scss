@@ -18,3 +18,7 @@ $secondary-highlight: #f2cf66; //Secondary highlight colour
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+.product-grid a {
+  text-decoration: none;
+}
