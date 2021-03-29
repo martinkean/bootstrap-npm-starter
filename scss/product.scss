@@ -22,20 +22,21 @@ body {
   height: 500px;
   margin-right: 10px;
   counter-increment: carousel-cell;
+  background: #8c8;
 }
 
 /* cell number */
 .carousel-cell:before {
   display: block;
   text-align: center;
-  content: counter(carousel-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
+  //   content: counter(carousel-cell);
+  //   line-height: 200px;
+  //   font-size: 80px;
+  //   color: white;
 }
 
 .carousel-nav .carousel-cell {
-  height: 80px;
+  height: 100px;
   width: 100px;
 }
 
