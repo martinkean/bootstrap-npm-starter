@@ -4,7 +4,8 @@
 .product-container {
   background-color: #ffffff;
   min-height: 80vh;
-  margin: 2em 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
   padding: 3em;
 }
 
@@ -101,19 +102,13 @@
 
 .add-to-cart {
   color: #ffffff;
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-weight: 300;
-}
-
-.add-to-cart svg,
-.wishlist-button svg {
-  margin-left: 1em;
-  height: 100px;
 }
 
 .wishlist-button {
   color: #333;
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-weight: 300;
 }
 
