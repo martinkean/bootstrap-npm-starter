@@ -16,7 +16,7 @@ body {
 }
 
 .product-main .flickity-viewport {
-  height: 500px !important;
+  max-height: 500px !important;
   touch-action: pan-y;
 }
 
@@ -24,6 +24,7 @@ body {
   background: #fafafa;
   margin-bottom: 40px;
   width: 500px;
+  height: 100%;
 }
 
 .product-main .carousel-cell {
