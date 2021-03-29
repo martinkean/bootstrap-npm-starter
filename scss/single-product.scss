@@ -1,8 +1,13 @@
 // .product {
 // }
 
+.navbar {
+  margin-bottom: 0;
+}
+
 .product-container {
   background-color: #ffffff;
+  min-height: 80vh;
 }
 
 .product-container.row > * {
