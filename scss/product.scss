@@ -26,9 +26,8 @@ body {
   width: 500px;
 }
 
-.carousel-cell {
+.product-main .carousel-cell {
   width: 100%;
-  max-width: 113px;
   height: 500px;
   margin-right: 10px;
   counter-increment: carousel-cell;
@@ -48,6 +47,7 @@ body {
 .carousel-nav .carousel-cell {
   height: 100px;
   width: 100px;
+  max-width: 113px;
 }
 
 .carousel-nav {
