@@ -7,6 +7,9 @@
   margin-top: 2em;
   margin-bottom: 2em;
   padding: 3em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
 }
 
 .product-container.row > * {
