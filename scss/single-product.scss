@@ -2,7 +2,7 @@
 // }
 
 .product-container {
-  background-color: #ffffff;
+  //   background-color: #ffffff;
   min-height: 80vh;
   margin-top: 2em;
   margin-bottom: 2em;
@@ -13,6 +13,7 @@
 
   @media screen and (max-width: 992px) {
     grid-template-columns: repeat(1, 1fr);
+    padding: 0;
   }
 }
 
