@@ -10,6 +10,10 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2.5rem;
+
+  @media screen and (max-width: 992px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .product-container.row > * {
