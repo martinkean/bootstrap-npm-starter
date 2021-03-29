@@ -1,3 +1,3 @@
-*{box-sizing:border-box}body{font-family:sans-serif}.carousel{background:#fafafa;margin-bottom:40px;width:500px}.carousel-cell{width:100%;height:500px;margin-right:10px;counter-increment:carousel-cell;background:#8c8}.carousel-cell:before{display:block;text-align:center}.carousel-nav .carousel-cell{height:100px;width:100px}.carousel-nav .carousel-cell:before{font-size:50px;line-height:80px}.carousel-nav .carousel-cell.is-nav-selected{background:#ed2}
+*{box-sizing:border-box}body{font-family:sans-serif}.row>*{padding:0}.carousel{background:#fafafa;margin-bottom:40px;width:500px}.carousel-cell{width:100%;height:500px;margin-right:10px;counter-increment:carousel-cell;background:#8c8}.carousel-cell:before{display:block;text-align:center}.carousel-nav .carousel-cell{height:100px;width:100px}.carousel-nav .carousel-cell:before{font-size:50px;line-height:80px}.carousel-nav .carousel-cell.is-nav-selected{background:#ed2}
 
 /*# sourceMappingURL=product.css.map */
