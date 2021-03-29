@@ -3,13 +3,6 @@
 
 // .product-container {
 // }
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: sans-serif;
-}
 
 .row > * {
   padding: 0;
@@ -55,6 +48,14 @@ body {
   background: none;
 }
 
+.rating-colour {
+  color: #333;
+}
+
+.rating-colour-dim {
+  color: #ccc;
+}
+
 // .carousel-nav .carousel-cell:before {
 //   font-size: 50px;
 //   line-height: 80px;
@@ -73,12 +74,4 @@ body {
   .carousel-nav .flickity-slider {
     left: 0 !important;
   }
-}
-
-.rating-colour {
-  color: #333;
-}
-
-.rating-colour-dim {
-  color: #ccc;
 }

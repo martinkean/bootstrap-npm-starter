@@ -83,6 +83,10 @@ body {
   background-color: $body-bg;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 // Style Bootstrap icons
 .bi {
   fill: currentColor;
@@ -97,11 +101,14 @@ $secondary-highlight: #f2cf66; //Secondary highlight colour
 
 // Footer
 .bd-footer {
-  font-size: .875rem;
+  font-size: 0.875rem;
   color: #63707c;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   color: $heading-text-colour;
 }
 
@@ -109,6 +116,7 @@ p {
   color: $body-text-colour;
 }
 
-.btn-primary, nav {
+.btn-primary,
+nav {
   background: $highlight-colour;
 }
