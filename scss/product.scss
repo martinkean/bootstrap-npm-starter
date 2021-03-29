@@ -44,11 +44,20 @@ body {
   width: 100px;
 }
 
-.carousel-nav .carousel-cell:before {
-  font-size: 50px;
-  line-height: 80px;
+.carousel-nav {
+  background: none;
 }
 
-.carousel-nav .carousel-cell.is-nav-selected {
-  background: #ed2;
+// .carousel-nav .carousel-cell:before {
+//   font-size: 50px;
+//   line-height: 80px;
+// }
+
+// .carousel-nav .carousel-cell.is-nav-selected {
+//   background: #ed2;
+// }
+
+.flickity-slider {
+  left: 20px !important;
+  transform: translateX(0%) !important;
 }
