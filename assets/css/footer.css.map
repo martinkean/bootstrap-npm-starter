@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "footer.css",
+	"sources": [
+		"../../scss/footer.scss"
+	],
+	"sourcesContent": [
+		".bg-cover {\n  background-repeat: no-repeat !important;\n  background-position: center center !important;\n  background-size: cover !important;\n}\n\n.bg-dark {\n  background-color: #1f1f1f !important;\n}\n\n.footer-deep {\n  padding: 7em 0;\n  color: rgb(249, 245, 245);\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,SAAS,AAAC,CACR,iBAAiB,CAAE,oBAAoB,CACvC,mBAAmB,CAAE,wBAAwB,CAC7C,eAAe,CAAE,gBAAgB,CAClC,AAED,AAAA,QAAQ,AAAC,CACP,gBAAgB,CAAE,kBAAkB,CACrC,AAED,AAAA,YAAY,AAAC,CACX,OAAO,CAAE,KAAK,CACd,KAAK,CAAE,OAAkB,CAC1B"
+}
