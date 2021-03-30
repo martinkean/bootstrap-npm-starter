@@ -106,7 +106,8 @@ $secondary-highlight: #f2cf66; //Secondary highlight colour
 }
 
 .buy-buttons-group {
-  margin-top: 4em;
+  position: absolute;
+  margin-top: auto !important;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
