@@ -101,7 +101,8 @@ $secondary-highlight: #f2cf66; //Secondary highlight colour
 }
 
 .buy-button {
-  width: 100%;
+  width: 12em;
+  height: 3.2em;
 }
 
 .buy-buttons-group {
@@ -134,15 +135,12 @@ $secondary-highlight: #f2cf66; //Secondary highlight colour
   color: #ffffff;
   font-size: 1em;
   font-weight: 300;
-  height: 3.2em;
-  width: 7em;
 }
 
 .wishlist-button {
   color: #333;
   font-size: 1em;
   font-weight: 300;
-  height: 3.2em;
 }
 
 // .carousel-nav .carousel-cell:before {
