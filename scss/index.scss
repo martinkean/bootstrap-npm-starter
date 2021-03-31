@@ -55,8 +55,11 @@ $secondary-highlight: #f2cf66; //Secondary highlight colour
 .btn-home {
   background-color: #f2cf66 !important;
   border-color: #0d0d0d !important;
+  border-width: 2px;
+  color:rgba(0, 0, 0, .1) !important;
 }
 
 .btn-home:hover {
   background-color:#f5840c !important;
+  color:seashell !important;
 }
