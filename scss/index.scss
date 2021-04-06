@@ -20,6 +20,14 @@ body {
   box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
 }
 
+.home-banner-img {
+  background: url(assets/img/banner-image.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 @media (min-width: 992px) {
   .rounded-lg-3 { border-radius: .3rem; }
 }
