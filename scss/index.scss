@@ -21,11 +21,12 @@ body {
 }
 
 .home-banner-img {
-  background: url(assets/img/banner-image.jpg) no-repeat center center fixed; 
+  background: url(/assets/img/banner-image.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding: 3em;
 }
 
 @media (min-width: 992px) {
